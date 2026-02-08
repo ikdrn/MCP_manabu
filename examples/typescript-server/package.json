@@ -1,0 +1,20 @@
+{
+  "name": "mcp-weather-todo-server",
+  "version": "1.0.0",
+  "description": "MCP学習用サーバー: 天気情報 + TODO管理",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}
